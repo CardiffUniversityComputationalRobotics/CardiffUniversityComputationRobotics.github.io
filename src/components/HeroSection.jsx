@@ -1,3 +1,4 @@
+import PhotoSlider from "./PhotoSlider";
 import SmartLink from "./SmartLink";
 
 export default function HeroSection({ hero }) {
@@ -29,12 +30,12 @@ export default function HeroSection({ hero }) {
         </ul>
       </div>
 
-      <aside className="photo-card">
-        <div className="photo-frame">
-          <img alt={hero.imageAlt} src={hero.image} />
-        </div>
-        <p className="photo-caption">{hero.imageCaption}</p>
-      </aside>
+      <PhotoSlider
+        caption={hero.imageCaption}
+        image={hero.image}
+        imageAlt={hero.imageAlt}
+        slides={hero.slides}
+      />
     </section>
   );
 }

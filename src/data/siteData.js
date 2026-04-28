@@ -38,10 +38,14 @@ export const siteData = {
       "A research-group website template for presenting the Cardiff University Computational Robotics Team, its members, publications, projects, and contact routes.",
     supportingText:
       "All page content is currently placeholder data stored in one file so the structure can be reviewed first and then populated with the group's real information.",
-    image: "/cucr_team_2025.jpeg",
-    imageAlt: "Placeholder artwork for the Computational Robotics team photo",
-    imageCaption:
-      "Replace this placeholder with the latest team photo once you are ready to populate the site.",
+    slides: [
+      {
+        image: "/cucr_team_2025.jpeg",
+        alt: "Cardiff University Computational Robotics team group photo",
+        caption:
+          "Cardiff University Computational Robotics team group photo, 2025.",
+      },
+    ],
     primaryLink: {
       label: "See all papers",
       href: "#/papers",

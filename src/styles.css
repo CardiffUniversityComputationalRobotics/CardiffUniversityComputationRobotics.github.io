@@ -410,22 +410,112 @@ h1 {
 }
 
 .photo-frame {
+  position: relative;
   overflow: hidden;
+  aspect-ratio: 4 / 3;
   border-radius: calc(var(--radius-xl) - 8px);
   border: 1px solid rgba(95, 17, 32, 0.08);
   background: linear-gradient(180deg, #fffdfb 0%, #f6ecec 100%);
 }
 
-.photo-frame img {
+.photo-slide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 520ms ease;
+}
+
+.photo-slide-active {
+  opacity: 1;
+}
+
+.photo-slide img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   object-fit: cover;
 }
 
-.photo-caption {
+.photo-slider-control {
+  position: absolute;
+  top: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.45rem;
+  height: 2.45rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 50%;
+  background: rgba(255, 251, 249, 0.82);
+  color: var(--accent-deep);
+  cursor: pointer;
+  font-size: 1.65rem;
+  font-weight: 700;
+  line-height: 1;
+  transform: translateY(-50%);
+  transition:
+    background var(--transition),
+    color var(--transition),
+    transform var(--transition);
+}
+
+.photo-slider-control:hover,
+.photo-slider-control:focus-visible {
+  background: #fff9f8;
+  color: var(--navy);
+  transform: translateY(-50%) scale(1.04);
+}
+
+.photo-slider-control-prev {
+  left: 0.75rem;
+}
+
+.photo-slider-control-next {
+  right: 0.75rem;
+}
+
+.photo-caption-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
   margin-top: 0.95rem;
+}
+
+.photo-caption {
+  flex: 1;
   color: var(--muted);
   line-height: 1.65;
+}
+
+.photo-slider-dots {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 0.42rem;
+  padding-top: 0.52rem;
+}
+
+.photo-slider-dot {
+  width: 0.68rem;
+  height: 0.68rem;
+  padding: 0;
+  border: 1px solid rgba(95, 17, 32, 0.28);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+  transition:
+    background var(--transition),
+    border-color var(--transition),
+    transform var(--transition);
+}
+
+.photo-slider-dot:hover,
+.photo-slider-dot:focus-visible,
+.photo-slider-dot-active {
+  border-color: var(--accent-deep);
+  background: var(--accent);
+  transform: scale(1.08);
 }
 
 .page-section,
