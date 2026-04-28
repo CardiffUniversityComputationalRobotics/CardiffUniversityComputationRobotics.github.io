@@ -32,18 +32,24 @@ export const siteData = {
     },
   ],
   hero: {
-    eyebrow: "Research Group Website",
+    eyebrow: "",
     title: "Cardiff University Computational Robotics Team",
     intro:
-      "A research-group website template for presenting the Cardiff University Computational Robotics Team, its members, publications, projects, and contact routes.",
+      "Research team founded at the School of Computer Science at Cardiff University in 2022. Focused on different research areas such as perception and navigation for autonomous robots, robot manipulation, object reconstruction and VR with shared autonomy.",
     supportingText:
-      "All page content is currently placeholder data stored in one file so the structure can be reviewed first and then populated with the group's real information.",
+      "",
     slides: [
       {
         image: "/cucr_team_2025.jpeg",
         alt: "Cardiff University Computational Robotics team group photo",
         caption:
           "Cardiff University Computational Robotics team group photo, 2025.",
+      },
+      {
+        image: "/cucr_team_2024.JPG",
+        alt: "Cardiff University Computational Robotics team group photo",
+        caption:
+          "Cardiff University Computational Robotics team group photo, 2024.",
       },
     ],
     primaryLink: {
@@ -54,12 +60,6 @@ export const siteData = {
       label: "Meet the team",
       href: "#/team",
     },
-    highlights: [
-      "Social robot navigation",
-      "Human-robot interaction",
-      "Embodied AI",
-      "Autonomous systems",
-    ],
   },
   home: {
     papersEyebrow: "Presented Papers",

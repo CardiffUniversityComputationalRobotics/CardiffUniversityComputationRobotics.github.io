@@ -23,11 +23,6 @@ export default function HeroSection({ hero }) {
           />
         </div>
 
-        <ul className="highlight-list" aria-label="Research highlights">
-          {hero.highlights.map((highlight) => (
-            <li key={highlight}>{highlight}</li>
-          ))}
-        </ul>
       </div>
 
       <PhotoSlider

@@ -16,7 +16,7 @@
   --radius-lg: 20px;
   --radius-md: 16px;
   --radius-pill: 999px;
-  --content-width: 1440px;
+  --content-width: 1680px;
   --transition: 220ms ease;
 }
 
@@ -88,7 +88,7 @@ p {
 
 .site-shell {
   position: relative;
-  width: min(calc(100% - 1.5rem), var(--content-width));
+  width: min(calc(100% - 1rem), var(--content-width));
   margin: 0 auto;
   padding: 1.25rem 0 4rem;
 }
@@ -362,7 +362,6 @@ h1 {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.highlight-list,
 .tag-list,
 .contact-methods {
   display: flex;
@@ -370,13 +369,6 @@ h1 {
   gap: 0.75rem;
 }
 
-.highlight-list {
-  margin: 1.55rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.highlight-list li,
 .tag,
 .paper-chip,
 .status-pill {
@@ -390,29 +382,15 @@ h1 {
   font-size: 0.92rem;
 }
 
-.highlight-list li {
-  border-color: rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff4f2;
-}
-
-.highlight-list li::before {
-  content: "";
-  width: 0.48rem;
-  height: 0.48rem;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #fff7f6, #f1d7db);
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.08);
-}
-
 .photo-card {
+  align-self: start;
   padding: 1.1rem;
 }
 
 .photo-frame {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   border-radius: calc(var(--radius-xl) - 8px);
   border: 1px solid rgba(95, 17, 32, 0.08);
   background: linear-gradient(180deg, #fffdfb 0%, #f6ecec 100%);
@@ -476,24 +454,19 @@ h1 {
 }
 
 .photo-caption-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
+  display: grid;
+  gap: 0.65rem;
   margin-top: 0.95rem;
 }
 
 .photo-caption {
-  flex: 1;
   color: var(--muted);
   line-height: 1.65;
 }
 
 .photo-slider-dots {
   display: inline-flex;
-  flex: 0 0 auto;
   gap: 0.42rem;
-  padding-top: 0.52rem;
 }
 
 .photo-slider-dot {
@@ -552,12 +525,12 @@ h1 {
 }
 
 .paper-grid {
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr));
 }
 
 .project-grid,
 .team-grid {
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 32rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 38rem), 1fr));
 }
 
 .paper-card,
@@ -565,7 +538,7 @@ h1 {
 .project-card,
 .contact-card,
 .team-section {
-  padding: 1.55rem;
+  padding: 1.7rem;
 }
 
 .paper-card {
