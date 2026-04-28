@@ -87,14 +87,6 @@ export default function App() {
         />
 
         <main className="site-main">{pageLookup[currentPage] ?? pageLookup.home}</main>
-
-        <footer className="site-footer">
-          <p>{siteData.footer.note}</p>
-          <p className="footer-hint">
-            Update the placeholder content in <code>src/data/siteData.js</code> when
-            you are ready to populate the site.
-          </p>
-        </footer>
       </div>
     </div>
   );

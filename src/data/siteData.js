@@ -62,17 +62,17 @@ export const siteData = {
     },
   },
   home: {
-    papersEyebrow: "Presented Papers",
-    papersTitle: "Selected papers and presentations highlighted on the landing page.",
-    papersDescription:
-      "This section sits below the team photograph on the landing page and can feature the latest papers, conference presentations, or the group's most representative outputs.",
+    papersEyebrow: "",
+    papersTitle: "Latest accepted papers",
+    // papersDescription:
+    //   "This section sits below the team photograph on the landing page and can feature the latest papers, conference presentations, or the group's most representative outputs.",
   },
   pages: {
     papers: {
-      eyebrow: "Published Papers",
-      title: "A complete list of the group's papers and scholarly output.",
+      eyebrow: "",
+      title: "Published Papers",
       description:
-        "Use this page for every paper you want visitors to browse, including journal articles, conference papers, workshop contributions, and preprints.",
+        "",
     },
     team: {
       eyebrow: "Team",
@@ -95,85 +95,108 @@ export const siteData = {
   },
   featuredPapers: [
     {
-      title: "Placeholder Paper Title for the Home Page",
-      venue: "Conference or Journal Name",
+      title: "One-Shot View Planning and Online Optimization-based Replanning for Unknown Object Reconstruction",
+      venue: "2026 IEEE International Conference on Robotics & Automation",
       year: "2026",
-      authors: "First Author, Second Author, Third Author",
+      authors: "J.J. Patiño, V. Romero-Cano, Y. Lai, Z. Kingston, J.D. Hernández",
       summary:
-        "A short summary placeholder for a paper featured on the main page. Replace this with the real title, authors, and contribution statement.",
-      href: "https://example.com/paper-one",
-      tag: "Featured",
+        "",
+      titleHref: "https://orca.cardiff.ac.uk/id/eprint/184709/",
+      youtubeUrl: "https://www.youtube.com/watch?v=Si_atZL73xI",
+      links: [
+        // {
+        //   label: "Paper link",
+        //   href: "https://example.com/paper-one",
+        // },
+      ],
+      tag: "To be published",
     },
     {
-      title: "Another Highlighted Publication Template",
-      venue: "Robotics Venue",
-      year: "2025",
-      authors: "Author A, Author B, Author C",
+      title:
+        "Exploring the Perceptions and Challenges of Social Robot Navigation: Two Case Studies in Different Socio-Technical Contexts",
+      venue: "OzCHI '24: 36th Australasian Conference on Human-Computer Interaction",
+      year: "2024",
+      authors:
+        "Steven Silva, Polina Oliinyk, Jose Patino, Dennys Paillacho, Juan D. Hernandez, Nervo Verdezoto",
       summary:
-        "Use this card for another featured publication or conference paper that you want visitors to notice quickly when they open the site.",
-      href: "https://example.com/paper-two",
-      tag: "Recent",
+        "A qualitative study of social robot navigation in real-world service settings across Ecuador and the UK, examining how robot behaviour, appearance, spatial constraints, and local context affect acceptance and user experience.",
+      titleHref: "https://doi.org/10.1145/3726986.3727028",
+      youtubeUrl: "https://www.youtube.com/watch?v=dFreXVsIJmc",
+      links: [],
+      tag: "Conference",
     },
     {
-      title: "Template Entry for a Presented Paper",
-      venue: "Workshop or Symposium",
-      year: "2025",
-      authors: "Researcher One, Researcher Two",
+      title: "Online Social Robot Navigation in Indoor, Large and Crowded Environments",
+      venue: "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+      year: "2023",
+      authors:
+        "Steven Silva, Nervo Verdezoto, Dennys Paillacho, Samuel Millan-Norman, Juan David Hernández",
       summary:
-        "This slot can hold a third highlighted paper, poster, or invited talk entry depending on what you want to emphasize on the landing page.",
-      href: "https://example.com/paper-three",
-      tag: "Selected",
+        "Presents an online social robot navigation framework for large, crowded indoor environments, combining social heatmap world modelling, multilayered sampling-based planning, and path-following control, with benchmarks and Pepper robot trials.",
+      titleHref: "https://doi.org/10.1109/ICRA48891.2023.10160603",
+      youtubeUrl: "https://www.youtube.com/watch?v=Gq149wFVj7A",
+      links: [],
+      tag: "Conference",
     },
   ],
   papers: [
     {
-      title: "Placeholder Paper Title for the Home Page",
-      venue: "Conference or Journal Name",
+      title: "One-Shot View Planning and Online Optimization-based Replanning for Unknown Object Reconstruction",
+      venue: "2026 IEEE International Conference on Robotics & Automation",
       year: "2026",
-      authors: "First Author, Second Author, Third Author",
+      authors: "J.J. Patiño, V. Romero-Cano, Y. Lai, Z. Kingston, J.D. Hernández",
       summary:
-        "A short summary placeholder for a paper featured on the main page. Replace this with the real title, authors, and contribution statement.",
-      href: "https://example.com/paper-one",
-      tag: "Featured",
+        "",
+      titleHref: "https://orca.cardiff.ac.uk/id/eprint/184709/",
+      youtubeUrl: "https://www.youtube.com/watch?v=Si_atZL73xI",
+      links: [
+        // {
+        //   label: "Paper link",
+        //   href: "https://example.com/paper-one",
+        // },
+      ],
+      tag: "To be published",
     },
     {
-      title: "Another Highlighted Publication Template",
-      venue: "Robotics Venue",
-      year: "2025",
-      authors: "Author A, Author B, Author C",
-      summary:
-        "Use this card for another featured publication or conference paper that you want visitors to notice quickly when they open the site.",
-      href: "https://example.com/paper-two",
-      tag: "Recent",
-    },
-    {
-      title: "Template Entry for a Presented Paper",
-      venue: "Workshop or Symposium",
-      year: "2025",
-      authors: "Researcher One, Researcher Two",
-      summary:
-        "This slot can hold a third highlighted paper, poster, or invited talk entry depending on what you want to emphasize on the landing page.",
-      href: "https://example.com/paper-three",
-      tag: "Selected",
-    },
-    {
-      title: "Journal Article Placeholder for the Full Papers Page",
-      venue: "Robotics and Automation Journal",
+      title:
+        "Exploring the Perceptions and Challenges of Social Robot Navigation: Two Case Studies in Different Socio-Technical Contexts",
+      venue: "OzCHI '24: 36th Australasian Conference on Human-Computer Interaction",
       year: "2024",
-      authors: "Author Name, Collaborator Name, Student Name",
+      authors:
+        "Steven Silva, Polina Oliinyk, Jose Patino, Dennys Paillacho, Juan D. Hernandez, Nervo Verdezoto",
       summary:
-        "A placeholder for a journal article entry with room for a concise explanation of the paper's focus, result, or application area.",
-      href: "https://example.com/paper-four",
-      tag: "Journal",
+        "A qualitative study of social robot navigation in real-world service settings across Ecuador and the UK, examining how robot behaviour, appearance, spatial constraints, and local context affect acceptance and user experience.",
+      titleHref: "https://doi.org/10.1145/3726986.3727028",
+      youtubeUrl: "https://www.youtube.com/watch?v=dFreXVsIJmc",
+      links: [
+      ],
+      tag: "Conference",
     },
     {
-      title: "Conference Paper Placeholder for a Navigation Study",
-      venue: "International Robotics Conference",
-      year: "2024",
-      authors: "Research Group Member, External Collaborator",
+      title: "Online Social Robot Navigation in Indoor, Large and Crowded Environments",
+      venue: "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+      year: "2023",
+      authors:
+        "Steven Silva, Nervo Verdezoto, Dennys Paillacho, Samuel Millan-Norman, Juan David Hernández",
       summary:
-        "This example shows how the full papers page can hold a larger archive than the short list on the front page.",
-      href: "https://example.com/paper-five",
+        "Presents an online social robot navigation framework for large, crowded indoor environments, combining social heatmap world modelling, multilayered sampling-based planning, and path-following control, with benchmarks and Pepper robot trials.",
+      titleHref: "https://doi.org/10.1109/ICRA48891.2023.10160603",
+      youtubeUrl: "https://www.youtube.com/watch?v=Gq149wFVj7A",
+      links: [
+      ],
+      tag: "Conference",
+    },
+    {
+      title: "Towards Online Socially Acceptable Robot Navigation",
+      venue: "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
+      year: "2022",
+      authors: "Steven Silva, Dennys Paillacho, Nervo Verdezoto, Juan David Hernández",
+      summary:
+        "Introduces an online social robot navigation framework that generates collision-free and socially acceptable paths in uncontrolled crowded spaces using a modified sampling-based planner and social relevance validity checking.",
+      titleHref: "https://doi.org/10.1109/CASE49997.2022.9926686",
+      youtubeUrl: "https://www.youtube.com/watch?v=aZf27nthmX8",
+      links: [
+      ],
       tag: "Conference",
     },
   ],
@@ -352,9 +375,5 @@ export const siteData = {
     ],
     note:
       "This panel can also include office hours, a collaboration note, lab access information, or a link to an external contact form.",
-  },
-  footer: {
-    note:
-      "Initial template for the Cardiff University Computational Robotics research website.",
   },
 };

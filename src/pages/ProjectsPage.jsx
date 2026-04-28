@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 export default function ProjectsPage({ pages, projects }) {
   return (
     <>
-      <PageIntro {...pages.projects} />
+      <PageIntro plain {...pages.projects} />
 
       <section className="page-section">
         <div className="project-grid">

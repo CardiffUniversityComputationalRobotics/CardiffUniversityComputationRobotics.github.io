@@ -4,7 +4,7 @@ import TeamSection from "../components/TeamSection";
 export default function TeamPage({ pages, teamSections }) {
   return (
     <>
-      <PageIntro {...pages.team} />
+      <PageIntro plain {...pages.team} />
 
       <div className="stacked-sections">
         {teamSections.map((section) => (
