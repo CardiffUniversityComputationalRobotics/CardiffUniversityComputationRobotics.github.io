@@ -7,7 +7,7 @@ export const papers = [
     authors:
       "J. J. Patiño, F. Duman, V. Romero-Cano, Yukun Lai, J. D. Hernández",
     summary:
-      "This paper presents a robotic object reconstruction approach using an eye-in-hand fixed-base manipulator under non-optimal reachability conditions. A partial reconstruction from initially reachable views guides an ML-based strategy to determine object displacements that maximize reachable viewpoints. Simulation and real-world experiments demonstrate improved reconstruction quality, achieving greater surface coverage and area compared with systems without object displacement adjustment.",
+      "This paper presents a robotic object reconstruction approach using an eye-in-hand fixed-base robotic arm under non-optimal reachability conditions. A partial reconstruction from initially reachable views guides an ML-based strategy to determine object displacements that maximize reachable viewpoints. Simulation and real-world experiments demonstrate improved reconstruction quality, achieving greater surface coverage and area compared with systems without object displacement adjustment.",
     titleHref: "",
     youtubeUrl: "https://www.youtube.com/watch?v=aIWNMZjVs4s",
     links: [],
